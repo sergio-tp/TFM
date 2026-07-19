@@ -1,0 +1,42 @@
+DIM_FECHA_TRIMESTRE
+- id_trimestre
+- anio
+- trimestre
+
+DIM_FECHA_MENSUAL
+- id_mes
+- anio
+- mes
+
+DIM_GEOGRAFIA
+- id_geografia
+- provincia
+- comunidad_autonoma
+
+DIM_ESTADO_VIVIENDA #nueva, segunda mano
+- id_estado_vivienda
+- estado_vivienda
+
+DIM_REGIMEN_VIVIENDA #libre, protegida
+- id_regimen_vivienda
+- regimen_vivienda
+
+FACT_TASACION
+- id_geografia
+- id_mes
+- tasacion_media
+
+FACT_TOTALES_VENTAS
+- id_trimestre
+- id_geografia
+- id_estado_vivienda
+- id_regimen_vivienda
+- total_vendidas
+
+FACT_TRANSACCIONES
+- id_mes
+- id_geografia
+- id_estado_vivienda
+- id_regimen_vivienda
+- total_transacciones
+- precio_transacciones

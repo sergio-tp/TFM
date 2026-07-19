@@ -1,0 +1,2 @@
+Una vez diseñado el esquema en constelación, se construye el siguiente esquema en constelación, que además nos da una gran visión del diseño de la base de datos, en donde se muestran las claves primarias, claves foráneas y los tipos de datos seleccionados.
+Todo esto acompañado del script SQL, mediante el cual generamos la base de datos que implementa el esquema [referencia al esquema en constelacion].
